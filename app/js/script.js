@@ -5,6 +5,7 @@ const { ipcRenderer } = require("electron");
 const form = document.getElementById("image-form");
 const slider = document.getElementById("slider");
 const img = document.getElementById("img");
+const log = require("electron-log");
 
 document.getElementById("output-path").innerText = path.join(
   os.homedir(),
