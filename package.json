@@ -1,0 +1,24 @@
+{
+  "name": "imageshrink",
+  "version": "1.0.0",
+  "description": "Optimize your images with this. ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron . --watch",
+    "dev": "nodemon --exec electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "slash": "^3.0.0"
+  }
+}
